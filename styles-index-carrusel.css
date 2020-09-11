@@ -145,7 +145,7 @@ nav {
 
 /* ESTILOS RESPONSIVE */
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1024px) {
     .card:nth-child(n) {
         -ms-grid-column: span 6;
             grid-column-start: span 6;
