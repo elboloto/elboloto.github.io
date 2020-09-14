@@ -51,7 +51,7 @@ font-family: 'Poppins', sans-serif;
   bottom: 0;
   left: 0;
   z-index: 101;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.3);
   content: "";
 }
 
@@ -72,7 +72,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6, figure {
-  color: #000;
+  color: #263b69;
 font-family: 'Poppins', sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
@@ -117,9 +117,15 @@ font-family: 'Poppins', sans-serif;
     border-bottom: 1px solid #666666;
   }
 }
+
+#gtco-logo img {
+    width: 250px;
+    
+}
+
 .gtco-nav #gtco-logo {
 font-family: 'Rubik', sans-serif;
-    width: 250px;
+    width: 100px;
   font-size: 16px;
   margin: 0;
   padding: 0;
@@ -420,10 +426,19 @@ width: 200px;
 }
 
 
+.logo-footer img {
+    width: 350px;
+padding-top: 20px;
+   margin-right: 100px;
+    
+
+
+}
+
 
 #gtco-footer {
-  background: #262626;
-  padding: 7em 0 0 0 !important;
+  background: #f6f6f6;
+  padding: 5em 0 0 0 !important;
   margin-bottom: 0 !important;
   width: 100%;
   float: left;
@@ -446,14 +461,14 @@ width: 200px;
   color: #000 !important;
 }
 #gtco-footer .gtco-footer-paragraph h3 {
-  color: #fff;
+  color: #263b69;
   margin-bottom: 10px;
 }
 #gtco-footer .gtco-footer-link {
   padding-left: 30px;
 }
 #gtco-footer .gtco-footer-link h3 {
-  color: #fff;
+  color: #263b69;
   margin-bottom: 10px;
 }
 @media screen and (max-width: 768px) {
@@ -464,23 +479,26 @@ width: 200px;
 #gtco-footer .gtco-footer-link .gtco-list-link {
   padding: 0;
   margin: 0;
+
 }
 #gtco-footer .gtco-footer-link .gtco-list-link li {
   padding: 0;
   margin: 0;
   list-style: none;
+    
 }
 #gtco-footer .gtco-footer-link .gtco-list-link li a {
   text-transform: uppercase;
-  font-size: 13px !important;
+  font-size: 14px !important;
 font-family: 'Poppins', sans-serif;
+        color: #000 ;
 }
 #gtco-footer .gtco-footer-subscribe {
-  padding-left: 30px;
+  padding-left: 20px;
 }
 @media screen and (max-width: 768px) {
   #gtco-footer .gtco-footer-subscribe {
-    padding-left: 15px;
+    padding-left: 20px;
   }
 }
 #gtco-footer .gtco-footer-subscribe .form-control {
@@ -869,7 +887,7 @@ blockquote p > cite {
   position: absolute;
   z-index: 1901;
   width: 270px;
-  background: black;
+  background: #263b69;
   top: 0;
   right: 0;
   top: 0;
@@ -899,7 +917,7 @@ blockquote p > cite {
   transform: translateX(0px);
 }
 #gtco-offcanvas a {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.7);
   font-family: "Montserrat", sans-serif;
 }
 #gtco-offcanvas a:hover {
@@ -1009,7 +1027,7 @@ font-family: 'Poppins', sans-serif;
   text-decoration: none;
 }
 .gtco-nav-toggle.active i::before, .gtco-nav-toggle.active i::after {
-  background: #444;
+  background: #fff;
 }
 .gtco-nav-toggle:hover, .gtco-nav-toggle:focus, .gtco-nav-toggle:active {
   outline: none;
