@@ -119,7 +119,7 @@ font-family: 'Poppins', sans-serif;
 }
 
 #gtco-logo img {
-    width: 250px;
+    max-width:  width: 250px;
     
 }
 
@@ -344,6 +344,10 @@ width: 200px;
   position: relative;
   z-index: 10;
 }
+
+
+
+
 @media screen and (max-width: 768px) {
   .gtco-cover {
     height: 600px;
