@@ -883,7 +883,7 @@ blockquote p {
 }
 blockquote p > cite {
   font-size: 14px;
-        background-color: red;
+background-color: red;
   color: #b3b3b3;
 }
 
