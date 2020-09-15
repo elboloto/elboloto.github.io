@@ -457,6 +457,12 @@ width: 200px;
   color: #263b69;
   margin-bottom: 10px;
 }
+
+#gtco-footer .gtco-footer-paragraph p {
+    display:inline-block;
+
+}
+
 #gtco-footer .gtco-footer-link {
   padding-left: 30px;
 }
