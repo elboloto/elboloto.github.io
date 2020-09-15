@@ -557,7 +557,7 @@ font-family: 'Poppins', sans-serif;
   color: #777;
 }
 .gtco-staff .role, .gtco-item .role {
-  color: #bfbfbf;
+  color: #898989;
   margin-bottom: 20px;
   font-weight: normal;
   display: block;
@@ -852,23 +852,24 @@ form label {
   margin-bottom: 2em;
 }
 .gtco-heading h2 {
-  font-size: 40px;
-  margin-bottom: 10px;
-  line-height: 1.5;
-  color: #4d4d4d;
+  font-size: 28px;
+  margin-bottom: 7px;
+  line-height: 1;
+  color: midnightblue;
   font-weight: 300;
 }
 .gtco-heading p {
-  font-size: 18px;   
-  line-height: 1.7;
+  font-size: 14px;   
+  line-height: 1;
   color: #898989;
+font-weight: 500;
        
 }
 
 #img-footer img {
-max-width: 600px;
+max-width: 550px;
 margin-bottom: 20px;
-    
+margin-left: -130px;
 }
 
 blockquote {
@@ -1643,3 +1644,13 @@ font-family: 'Poppins', sans-serif;
 
 
 /*# sourceMappingURL=style.css.map */
+
+
+#gtco-footer .gtco-footer-link .gtco-list-link a {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 300;
+    justify-content: space-around;
+    
+}
