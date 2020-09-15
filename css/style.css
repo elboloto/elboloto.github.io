@@ -872,20 +872,7 @@ margin-bottom: 20px;
 margin-left: -130px;
 }
 
-blockquote {
-  padding-left: 0;
-  border-left: none;
-}
-blockquote p {
-        background-color: green;
-  font-style: italic;
-  color: #000;
-}
-blockquote p > cite {
-  font-size: 14px;
-background-color: red;
-  color: #b3b3b3;
-}
+
 
 #gtco-offcanvas {
   position: absolute;
@@ -1647,10 +1634,10 @@ font-family: 'Poppins', sans-serif;
 
 
 #gtco-footer .gtco-footer-link .gtco-list-link a {
-    display: flex;
-    justify-content: space-around;
+    display: block;
     align-items: center;
     font-weight: 300;
     justify-content: space-around;
+    margin-bottom: 10px
     
 }
