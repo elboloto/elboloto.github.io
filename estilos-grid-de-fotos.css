@@ -678,7 +678,7 @@ font-family: 'Poppins', sans-serif;
   position: absolute;
   left: 0;
   top: .05em;
-font-family: 'Poppins', sans-serif;
+font-family: 'icomoon';
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -861,6 +861,7 @@ form label {
   font-size: 28px;
   margin-bottom: 7px;
   line-height: 1;
+    
   color: midnightblue;
   font-weight: 300;
 }
@@ -874,8 +875,10 @@ font-weight: 500;
 
 #img-footer img {
 max-width: 550px;
-margin-bottom: 20px;
-margin-left: -130px;
+    vertical-align: middle;
+    
+
+
 }
 
 
@@ -1264,13 +1267,13 @@ font-family: 'Poppins', sans-serif;
 }
 
 .btn-special {
-  background: gray;
+  background: midnightblue;
   color: #fff;
   border: 2px solid #fff;
 }
 .btn-special:hover, .btn-special:focus, .btn-special:active {
-  color: transparent;
-  background-color: transparent
+  color: midnightblue;
+  background-color: transparent;
   border-color: #fff;
 }
 .btn-special.btn-outline {
@@ -1554,7 +1557,7 @@ font-family: 'Poppins', sans-serif;
   letter-spacing: .05em;
 }
 .feature-left > .copy p {
-  font-size: 14px !important;
+  font-size: 12px !important;
   line-height: 26px;
 }
 .feature-left > .copy p:last-child {
@@ -1572,6 +1575,54 @@ font-family: 'Poppins', sans-serif;
 .gtco-services .feature-left p {
   margin-bottom: 10px !important;
 }
+
+
+.feature-right {
+margin-top: 14px;
+  margin-bottom: 0px;
+
+}
+@media screen and (max-width: 768px) {
+  .feature-left {
+    margin-bottom: 20px;
+  }
+}
+.feature-right > .icon {
+  float: left;
+  font-size: 34px;
+  color: #cccccc;
+}
+.feature-right > .copy {
+  padding-left: 30px;
+}
+.feature-right > .copy h3 {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+}
+.feature-right > .copy p {
+  font-size: 12px !important;
+  line-height: 26px;
+}
+.feature-right > .copy p:last-child {
+  margin-bottom: 0;
+}
+.feature-right > .icon, .feature-left > .copy {
+  display: table-cell;
+}
+
+.gtco-services .feature-right {
+  float: right;
+  width: 100%;
+  margin-bottom: 50px !important;
+}
+.gtco-services .feature-right p {
+  margin-bottom: 10px !important;
+}
+
+
+
 
 .owl-theme .owl-dots {
   position: absolute;
@@ -1644,6 +1695,373 @@ font-family: 'Poppins', sans-serif;
     align-items: center;
     font-weight: 300;
     justify-content: space-around;
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    margin-left: 0px;
+    padding-left: 20pxpx;
+    
     
 }
+
+
+
+feed {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 16px 1fr 16px 1fr 16px 1fr 16px 1fr 16px 1fr 16px 1fr 16px 1fr 16px 1fr 16px 1fr 16px 1fr 16px 1fr;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: 350px;
+    grid-gap: 16px;
+    margin: 40px 0 40px 0;
+}
+
+.card__category {
+    font-family: Muli, sans-serif;
+    font-size: 24px;
+    line-height: 18px;
+    font-weight: 700;
+    color: #ECF0F1;
+    margin: 0;
+}
+
+.card__title {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #ECF0F1;
+    margin: 10px 0 0 0;
+}
+
+.card {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    padding: 20px;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.card:hover {
+    cursor:pointer;
+    color: rgba(1,1,4,.2);
+    -webkit-box-shadow: 0px 30px 18px -8px rgba(0,0,0,0.1);
+            box-shadow: 0px 30px 18px -8px rgba(0,0,0,0.1);
+    -webkit-transform: scale(1.02);
+        -ms-transform: scale(1.02);
+            transform: scale(1.02);
+}
+
+.card:nth-child(1) {
+    background-image: -webkit-gradient(
+        linear,
+        left top, left bottom,
+        from(rgba(10,10,10,0)),
+        color-stop(50%, rgba(10,10,10,0)),
+        to(rgba(10,10,10,0.7))),url('images/image-1.jpg');
+    background-image: -webkit-linear-gradient(
+        top,
+        rgba(10,10,10,0) 0%,
+        rgba(10,10,10,0) 50%,
+        rgba(10,10,10,0.7) 100%),url('images/image-1.jpg');
+    background-image: -o-linear-gradient(
+        top,
+        rgba(10,10,10,0) 0%,
+        rgba(10,10,10,0) 50%,
+        rgba(10,10,10,0.7) 100%),url('images/image-1.jpg');
+    background-image: linear-gradient(
+        to bottom,
+        rgba(10,10,10,0) 0%,
+        rgba(10,10,10,0) 50%,
+        rgba(10,10,10,0.7) 100%),url('images/image-1.jpg');
+}
+
+.card:nth-child(2) {
+    background-image: -webkit-gradient(
+        linear,
+        left top, left bottom,
+        from(rgba(10,10,10,0)),
+        color-stop(50%, rgba(10,10,10,0)),
+        to(rgba(10,10,10,0.7))),url('images/image-2.jpg');
+    background-image: -webkit-linear-gradient(
+        top,
+        rgba(10,10,10,0) 0%,
+        rgba(10,10,10,0) 50%,
+        rgba(10,10,10,0.7) 100%),url('images/image-2.jpg');
+    background-image: -o-linear-gradient(
+        top,
+        rgba(10,10,10,0) 0%,
+        rgba(10,10,10,0) 50%,
+        rgba(10,10,10,0.7) 100%),url('images/image-2.jpg');
+    background-image: linear-gradient(
+        to bottom,
+        rgba(10,10,10,0) 0%,
+        rgba(10,10,10,0) 50%,
+        rgba(10,10,10,0.7) 100%),url('images/image-2.jpg');
+}
+
+.card:nth-child(3) {
+    background-image: -webkit-gradient(
+        linear,
+        left top, left bottom,
+        from(rgba(10,10,10,0)),
+        color-stop(50%, rgba(10,10,10,0)),
+        to(rgba(10,10,10,0.7))),url('images/image-3.jpg');
+    background-image: -webkit-linear-gradient(
+        top,
+        rgba(10,10,10,0) 0%,
+        rgba(10,10,10,0) 50%,
+        rgba(10,10,10,0.7) 100%),url('images/image-3.jpg');
+    background-image: -o-linear-gradient(
+        top,
+        rgba(10,10,10,0) 0%,
+        rgba(10,10,10,0) 50%,
+        rgba(10,10,10,0.7) 100%),url('images/image-3.jpg');
+    background-image: linear-gradient(
+        to bottom,
+        rgba(10,10,10,0) 0%,
+        rgba(10,10,10,0) 50%,
+        rgba(10,10,10,0.7) 100%),url('images/image-3.jpg');
+}
+
+.card:nth-child(4) {
+    background-image: -webkit-gradient(
+        linear,
+        left top, left bottom,
+        from(rgba(10,10,10,0)),
+        color-stop(50%, rgba(10,10,10,0)),
+        to(rgba(10,10,10,0.7))),url('images/image-4.jpg');
+    background-image: -webkit-linear-gradient(
+        top,
+        rgba(10,10,10,0) 0%,
+        rgba(10,10,10,0) 50%,
+        rgba(10,10,10,0.7) 100%),url('images/image-4.jpg');
+    background-image: -o-linear-gradient(
+        top,
+        rgba(10,10,10,0) 0%,
+        rgba(10,10,10,0) 50%,
+        rgba(10,10,10,0.7) 100%),url('images/image-4.jpg');
+    background-image: linear-gradient(
+        to bottom,
+        rgba(10,10,10,0) 0%,
+        rgba(10,10,10,0) 50%,
+        rgba(10,10,10,0.7) 100%),url('images/image-4.jpg');
+}
+
+.card:nth-child(5) {
+    background-image: -webkit-gradient(
+        linear,
+        left top, left bottom,
+        from(rgba(10,10,10,0)),
+        color-stop(50%, rgba(10,10,10,0)),
+        to(rgba(10,10,10,0.7))),url('images/image-5.jpg');
+    background-image: -webkit-linear-gradient(
+        top,
+        rgba(10,10,10,0) 0%,
+        rgba(10,10,10,0) 50%,
+        rgba(10,10,10,0.7) 100%),url('images/image-5.jpg');
+    background-image: -o-linear-gradient(
+        top,
+        rgba(10,10,10,0) 0%,
+        rgba(10,10,10,0) 50%,
+        rgba(10,10,10,0.7) 100%),url('images/image-5.jpg');
+    background-image: linear-gradient(
+        to bottom,
+        rgba(10,10,10,0) 0%,
+        rgba(10,10,10,0) 50%,
+        rgba(10,10,10,0.7) 100%),url('images/image-5.jpg');
+}
+
+.card:nth-child(6) {
+    background-image: -webkit-gradient(
+        linear,
+        left top, left bottom,
+        from(rgba(10,10,10,0)),
+        color-stop(50%, rgba(10,10,10,0)),
+        to(rgba(10,10,10,0.7))),url('images/image-6.jpg');
+    background-image: -webkit-linear-gradient(
+        top,
+        rgba(10,10,10,0) 0%,
+        rgba(10,10,10,0) 50%,
+        rgba(10,10,10,0.7) 100%),url('images/image-6.jpg');
+    background-image: -o-linear-gradient(
+        top,
+        rgba(10,10,10,0) 0%,
+        rgba(10,10,10,0) 50%,
+        rgba(10,10,10,0.7) 100%),url('images/image-6.jpg');
+    background-image: linear-gradient(
+        to bottom,
+        rgba(10,10,10,0) 0%,
+        rgba(10,10,10,0) 50%,
+        rgba(10,10,10,0.7) 100%),url('images/image-6.jpg');
+}
+
+.card:nth-child(7) {
+    background-image: -webkit-gradient(
+        linear,
+        left top, left bottom,
+        from(rgba(10,10,10,0)),
+        color-stop(50%, rgba(10,10,10,0)),
+        to(rgba(10,10,10,0.7))),url('images/image-7.jpg');
+    background-image: -webkit-linear-gradient(
+        top,
+        rgba(10,10,10,0) 0%,
+        rgba(10,10,10,0) 50%,
+        rgba(10,10,10,0.7) 100%),url('images/image-7.jpg');
+    background-image: -o-linear-gradient(
+        top,
+        rgba(10,10,10,0) 0%,
+        rgba(10,10,10,0) 50%,
+        rgba(10,10,10,0.7) 100%),url('images/image-7.jpg');
+    background-image: linear-gradient(
+        to bottom,
+        rgba(10,10,10,0) 0%,
+        rgba(10,10,10,0) 50%,
+        rgba(10,10,10,0.7) 100%),url('images/image-7.jpg');
+}
+
+.card:nth-child(8) {
+    background-image: -webkit-gradient(
+        linear,
+        left top, left bottom,
+        from(rgba(10,10,10,0)),
+        color-stop(50%, rgba(10,10,10,0)),
+        to(rgba(10,10,10,0.7))),url('images/image-8.jpg');
+    background-image: -webkit-linear-gradient(
+        top,
+        rgba(10,10,10,0) 0%,
+        rgba(10,10,10,0) 50%,
+        rgba(10,10,10,0.7) 100%),url('images/image-8.jpg');
+    background-image: -o-linear-gradient(
+        top,
+        rgba(10,10,10,0) 0%,
+        rgba(10,10,10,0) 50%,
+        rgba(10,10,10,0.7) 100%),url('images/image-8.jpg');
+    background-image: linear-gradient(
+        to bottom,
+        rgba(10,10,10,0) 0%,
+        rgba(10,10,10,0) 50%,
+        rgba(10,10,10,0.7) 100%),url('images/image-8.jpg');
+}
+
+.card:nth-child(9) {
+    background-image: -webkit-gradient(
+        linear,
+        left top, left bottom,
+        from(rgba(10,10,10,0)),
+        color-stop(50%, rgba(10,10,10,0)),
+        to(rgba(10,10,10,0.7))),url('images/image-9.jpg');
+    background-image: -webkit-linear-gradient(
+        top,
+        rgba(10,10,10,0) 0%,
+        rgba(10,10,10,0) 50%,
+        rgba(10,10,10,0.7) 100%),url('images/image-9.jpg');
+    background-image: -o-linear-gradient(
+        top,
+        rgba(10,10,10,0) 0%,
+        rgba(10,10,10,0) 50%,
+        rgba(10,10,10,0.7) 100%),url('images/image-9.jpg');
+    background-image: linear-gradient(
+        to bottom,
+        rgba(10,10,10,0) 0%,
+        rgba(10,10,10,0) 50%,
+        rgba(10,10,10,0.7) 100%),url('images/image-9.jpg');
+}
+
+
+
+.card:nth-child(1),:nth-child(6),:nth-child(7) {
+    -ms-grid-column: span 6;
+        grid-column-start: span 6;
+}
+
+.card:nth-child(2),:nth-child(3),:nth-child(4),:nth-child(5),:nth-child(8),:nth-child(9) {
+    -ms-grid-column: span 3;
+        grid-column-start: span 3;
+}
+
+
+/* ESTILOS RESPONSIVE */
+
+@media screen and (max-width: 1200px) {
+    .card:nth-child(n) {
+        -ms-grid-column: span 6;
+            grid-column-start: span 6;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .card:nth-child(n) {
+        -ms-grid-column: span 12;
+        grid-column-start: span 12;
+    }
+}
+
+@media screen and (max-width:1024px){
+.nav-links {
+    width: 100%;
+}
+
+
+@media screen and (max-width:768px){
+    
+    body{
+        overflow-x: hidden;   
+    }
+    
+    .nav-links {
+    position: absolute;
+    right: 0px;
+    height: 92vh;
+    top: 8vh;
+    background-color: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+}
+    
+    .nav-links li {
+        opacity: 0;
+        
+    }
+    
+    .burger{
+        display: block;
+        
+    }
+
+
+    .nav-active {
+        transform: translateX(0%)
+    }
+
+    @keyframes navLinkFade {
+        from{
+            opacity: 0;
+            transform: translateX(50px;)
+            
+        }
+        
+        to{
+            opacity: 1;
+            transform: translateX(0px);
+        }
+        
+
+
+
+
