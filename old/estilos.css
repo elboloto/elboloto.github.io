@@ -55,14 +55,6 @@ img{
     line-height: 0.7;
 }
 
-#enlace-mail {
-	text-decoration: none;
-	text-align: center;
-	color: #2e4053;
-    font-weight: 800;
-
-}    
-
 .ir-arriba{
     display: none;
     padding: 15px;
@@ -116,16 +108,8 @@ img{
 .filete{
     width: 88px;
     border-bottom: 2px solid #f5f0ed;
-    margin:25px auto;
+    margin:25px auto;}
 }
-
-
-.filete2 {
-    width: 88px;
-    border-bottom: 2px solid #2e4053;
-    margin:25px auto;
-}
-
 
 .menu{
     float: right;
@@ -177,7 +161,6 @@ img{
         border: 0px solid white;
         border-radius: 0px;
         min-height: 270px;
-    
     }
 .principal{
     background-color:   #2e4053 ;
@@ -237,12 +220,12 @@ img{
 .terciario h1,
 .cuaternario h1{
     font-size: 24px;
-    color:#2e4053;
+    color:#241d1b;
 }
 
 .terciario h3,
 .cuaternario h3{
-    color:#2e4053;
+    color:#241d1b;
     font-weight: 400;
 }
 
@@ -630,7 +613,7 @@ a:focus{
     
     .terciario img,
     .cuaternario img{
-    max-width: 20%;
+    max-width: 100%;
     }
     .footer h1{
     font-size: 16px;
