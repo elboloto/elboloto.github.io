@@ -39,7 +39,7 @@ img{
 
 .footer{
     width: 100%;
-    background-color: #2e4053;
+    background-color: #241d1b;
     min-height: 103px;
     padding: 20px 0px 0px 15px;
     
@@ -48,7 +48,6 @@ img{
     font-weight: 400;
     color: #FFF;
     line-height: 0.7;
-    
 }
 .footer h2{
     font-weight: 400;
@@ -278,9 +277,9 @@ img{
     width: 100%;
     background-repeat: no-repeat;
     background-size:cover;
-    background-position:center;
+    background-position:-110px;
     margin: 0px;
-    border-radius: 0px;
+    border-radius: 0Px;
     overflow: hidden;
 }
     
@@ -411,7 +410,6 @@ a:focus{
     color: white;
     font-weight: 300;
     font-size: 12px;
-    text-align: center;
 }
 
     
@@ -456,8 +454,7 @@ a:focus{
         .footer h3{
     color: white;
     font-weight: 300;
-    font-size: 16px;
-    text-align: center;
+    font-size: 14px;
 }
     
 }
@@ -575,9 +572,6 @@ a:focus{
     margin: 0px;
     overflow: hidden;
 }
-    
-    
-    
     .texto h1{
         font-size: 39px;
     }
@@ -606,8 +600,7 @@ a:focus{
     .footer h3{
     color: white;
     font-weight: 300;
-    font-size: 16px;
-    text-align: center;
+    font-size: 12px;
 }
     
 
@@ -676,7 +669,7 @@ a:focus{
     
     color: white;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
 }
     
