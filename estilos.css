@@ -191,6 +191,60 @@ img{
        
     }
 
+.principal-2{
+    background-color: #2e4053 ;
+    
+}
+
+.secundaria-2{
+        background-color: #f6f6f6;
+    
+       
+    }
+
+.principal-2 h1,
+.secundaria-2 h1{
+    font-size: 24px;
+    line-height: 1;
+}
+
+.principal-2 h1{
+    color:#ded6c0;
+}
+
+.secundaria-2 h1{
+    color:#2e4053;
+}
+
+.principal-2 h3{
+    color:#ded6c0;
+    font-weight: 400;
+}
+
+.principal-2 h3 a{
+    color:#ded6c0;
+    font-weight: 800;
+}
+
+.secundaria-2 h3{
+    color:#2e4053;
+    font-weight: 400;
+}
+
+
+
+.principal-2,
+.secundaria-2 {
+        display: block;
+        margin-top: 0px;
+        width: 100%;
+        padding: 54px 16px 54px 16px;
+        text-align: center;
+        border: 0px solid white;
+        border-radius: 0px;
+        min-height: 270px;
+    
+    }
 /*PRODUCTOS--------------*/
 /*HEADERDOS--------------*/
 
@@ -407,7 +461,7 @@ a:focus{
     display: none;
 }
 
-        .footer h3{
+    .footer h3{
     color: white;
     font-weight: 300;
     font-size: 12px;
@@ -453,7 +507,7 @@ a:focus{
     display: none;
 }
     
-        .footer h3{
+    .footer h3{
     color: white;
     font-weight: 300;
     font-size: 16px;
@@ -467,12 +521,13 @@ a:focus{
     }
     
     .principal,
-    .secundaria{
+    .secundaria {
         float: left;
         padding: 60px 40px 60px 40px;
         width: 50%;
         min-height: 336px;
         overflow: hidden;
+        max-height: 800px;
 
     }
     
@@ -610,6 +665,23 @@ a:focus{
     text-align: center;
 }
     
+    .principal-2,
+    .secundaria-2{
+        float: left;
+        padding: 60px 40px 60px 40px;
+        width: 50%;
+        min-height: 336px;
+        overflow: hidden;
+        max-height: 600px;
+
+    }
+    
+    
+    .principal-2 h1,
+    .secundaria-2 h1{
+    font-size: 28px;
+    text-align: center;
+}
 
 
 @media screen and (min-width: 1200px){
@@ -639,7 +711,7 @@ a:focus{
     .principal,
     .secundaria{
         padding: 133px 105px 133px 105px;
-        max-height: 402px;
+        max-height: 780px;
 
     }
     
@@ -681,4 +753,9 @@ a:focus{
 }
     
     
- 
+ .principal-2,
+    .secundaria-2 {
+        padding: 133px 105px 133px 105px;
+        max-height: 780px;
+
+    }
