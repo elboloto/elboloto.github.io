@@ -1,5 +1,0 @@
-1) Se creó la página error 404.
-2) Se agregó la descripción alt en las fotografías.
-3) Se agregó una descripción de la página en el meta.
-4) Se agregaron "keywords" en el meta.
-5) Se agregó el nombre del autor de la web al meta.

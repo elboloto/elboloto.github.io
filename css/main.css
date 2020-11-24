@@ -192,16 +192,6 @@ body .no-padding {
     padding: 20px 0 !important;
     font-size: 18px !important; } }
 
-#error  {
-  background-color: #fafafa;
-
-  text-align: center;
-  color: #263b69; }
-
-#error a {
-  color: #263b69; }
-
-
 /*empresa*/
 #pag-empresa {
   padding-top: 150px; }
@@ -309,11 +299,3 @@ body .no-padding {
 
 .novedades-container:hover .overlay {
   display: block; }
-
-
-/*404*/
-#404  {
-  background-color: #263b69;
-  padding: 80px 0;
-  text-align: center;
-  color: white; }
