@@ -1,13 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700;900&display=swap");
+/*general*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700;900&display=swap");
 * {
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins;
   margin: 0px;
   padding: 0px;
 }
 
-/*general*/
 #topmargin-lg {
-  margin-top: 80px;
+  margin-top: 180px;
 }
 
 #topmargin-sm {
@@ -25,6 +26,35 @@ section {
 
 a:hover {
   text-decoration: none;
+}
+
+/*header*/
+.navbar {
+  background-color: #263b69;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
+  min-height: 100px;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: #808B96;
+}
+
+.logo-brand {
+  min-width: 120px;
+  max-width: 250px;
+}
+
+.navbar-toggler {
+  color: white;
+  font-size: 40px;
+}
+
+.navbar-toggler:focus {
+  outline: none;
 }
 
 /*index*/
@@ -47,26 +77,26 @@ a:hover {
   width: 400px;
   animation: slideInUp;
   animation-duration: 1s;
-  color: #263b69;
+  color: #0000CC;
 }
 
 #parrafo1 {
-  font-size: 25px;
+  font-size: 22px;
   line-height: 1.4;
   animation: slideInUp;
   animation-duration: 1s;
   margin-bottom: 0;
   padding-top: 20px;
   color: white;
-  font-weight: 500;
 }
 
 .titulo2 {
   font-size: 36px;
+  color: #707B7C;
   font-weight: 300;
   text-transform: uppercase;
+  margin-top: 20px;
   margin-bottom: 30px;
-  color: #263b69;
 }
 
 .titulo2::after {
@@ -86,9 +116,13 @@ a:hover {
 
 #selecc h3 {
   transition: all 0.8s;
+  transition: all 0.8s;
+  transition: all 0.8s;
 }
 
 #selecc:hover h3 {
+  transform: scale(1.2);
+  transform: scale(1.2);
   transform: scale 1.2;
 }
 
@@ -118,6 +152,7 @@ a:hover {
   z-index: 1;
   background-color: rgba(0, 0, 0, 0.5);
 }
+
 .overlay div {
   position: absolute;
   display: flex;
@@ -126,6 +161,7 @@ a:hover {
   width: 100%;
   height: 100%;
 }
+
 .overlay div h4 {
   color: #fff;
 }
@@ -145,7 +181,7 @@ body .carousel-indicators li {
 
 body .carousel-control-prev-icon,
 body .carousel-control-next-icon {
-  background-color: #263b69;
+  background-color: black;
 }
 
 body .no-padding {
@@ -170,33 +206,47 @@ body .no-padding {
     margin-bottom: 50px;
   }
 }
-/*header*/
-.navbar {
-  background-color: #263b69;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
-  min-height: 100px;
+/*servicios*/
+#pag-servicios {
+  padding-top: 150px;
 }
 
-.nav-link {
-  color: white;
+#pag-servicios h3 {
+  font-size: 20px;
+  margin-top: 8px;
 }
 
-.nav-link:hover {
-  color: #808B96;
+#parrafo-serv {
+  font-size: 16px;
+  line-height: 1.4;
 }
 
-.logo-brand {
-  min-width: 80px;
-  max-width: 240px;
+@media (max-width: 575.98px) {
+  #celu p {
+    margin-bottom: 50px;
+  }
+}
+/*empresa*/
+#pag-empresa {
+  padding-top: 150px;
 }
 
-.navbar-toggler {
-  color: white;
-  font-size: 40px;
+#parrafo-emp {
+  font-size: 16px;
+  line-height: 1.4;
+  margin-bottom: 0;
+  padding: 10px 0;
 }
 
-.navbar-toggler:focus {
-  outline: none;
+.alinear {
+  align-items: center;
+}
+
+.subtitulo {
+  padding-top: 60px;
+  font-size: 26px;
+  font-weight: 400;
+  color: #263b69;
 }
 
 /*footer*/
@@ -234,4 +284,90 @@ body .no-padding {
     padding: 20px 0 !important;
     font-size: 18px !important;
   }
+}
+/*novedades*/
+#pag-novedades {
+  padding-top: 150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#pag-novedades h3 {
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+
+#pag-novedades li {
+  font-size: 18px;
+  list-style: none;
+  padding: 10px 0;
+}
+
+.full-width {
+  width: 100%;
+}
+
+#pag-novedades #casillero {
+  font-size: 14px;
+  margin-bottom: 0px !important;
+}
+
+.card--link {
+  width: 35%;
+  font-size: 12.5px;
+  background: #263b69;
+  color: #FFF;
+  padding: 10px 10px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.novedades-container {
+  position: relative;
+  margin: 15px 0;
+}
+
+.novedades-container:hover .overlay {
+  display: block;
+}
+
+/*contacto*/
+#pag-contacto {
+  padding-top: 150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#pag-contacto h3 {
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+
+#pag-contacto li {
+  font-size: 16px;
+  list-style: none;
+  padding: 10px 0;
+}
+
+#pag-contacto i {
+  color: #515A5A;
+  padding-right: 10px;
+}
+
+#pag-contacto #casillero {
+  font-size: 14px;
+  margin-bottom: 0px !important;
+}
+
+.alinear {
+  align-items: center;
+}
+
+.full-width {
+  width: 100%;
+}
+
+/*proyectos*/
+#pag-proyectos {
+  padding-top: 150px;
 }

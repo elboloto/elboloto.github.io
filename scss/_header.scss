@@ -1,0 +1,22 @@
+/*header*/
+.navbar {
+  background-color: $colorFondo;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
+  min-height: 100px; }
+
+.nav-link {
+  color: white; }
+
+.nav-link:hover {
+  color: #808B96; }
+
+.logo-brand {
+  min-width: 120px;
+  max-width: 250px; }
+
+.navbar-toggler {
+  color: white;
+  font-size: 40px; }
+
+.navbar-toggler:focus {
+  outline: none; }

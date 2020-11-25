@@ -1,0 +1,23 @@
+@import "fonts";
+/*general*/
+* {
+  font-family: Poppins;
+  margin: 0px;
+  padding: 0px; }
+
+#topmargin-lg {
+  margin-top: 180px; }
+
+#topmargin-sm {
+  margin-top: 30px; }
+
+#topmargin-xs {
+  margin-top: 15px; }
+
+/*60 para arriba y para abajo y 0 para los costados*/
+section {
+  padding: 80px 0; }
+
+a:hover {
+  text-decoration: none; }
+
